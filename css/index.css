@@ -1,0 +1,187 @@
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/*头部固定导航*/
+.navbar-default {
+    font-weight: 800;
+    font-size: 14px;
+    color: #777;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+@media (min-width: 768px) {
+    .navbar-custom{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navbar {
+        border-radius: 4px;
+        background: transparent;
+    }
+
+    .navbar .navbar-brand {
+        color: white;
+        padding: 20px;
+    }
+
+    #bs-example-navbar-collapse-1 .navbar-nav > li > a {
+        color: white;
+        padding: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+.navbar-toggle .icon-bar {
+    width: 10px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 2px;
+}
+
+/*头部固定导航*/
+/*头部固定图片*/
+header {
+    background: url("../images/home-bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.intro-header .site-heading {
+    text-align: center;
+    color: white;
+    padding: 100px 0 50px;
+    margin-top: 0;
+}
+
+.intro-header .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.intro-header .site-heading .small {
+    max-width: 100px;
+    border-width: 4px;
+    margin: 15px auto;
+}
+
+@media (min-width: 768px) {
+    .intro-header .container .site-heading {
+        padding: 150px 0;
+    }
+
+    .intro-header .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+/*头部固定图片*/
+/*主题内容设置*/
+#posts .post_preview h3 {
+    font-weight: normal;
+}
+
+#posts .post_preview p {
+    color: #777;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#posts .post_preview p a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+    #posts .post_preview h2 {
+        margin-top: 30px;
+        font-size: 36px;
+    }
+
+    #posts .post_preview h3 {
+        margin-top: 0;
+    }
+}
+
+/*主题内容设置*/
+/*左右翻页按钮*/
+.paper{
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    letter-spacing: 1px;
+}
+.paper a{
+    display: block;
+    padding: 15px 25px;
+    font-weight: 800;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.paper a:hover{
+    background: #337ab7;
+    color: white;
+}
+.paper a:focus{
+    text-decoration: none;
+    background: #337ab7;
+    color: white;
+}
+.paper .previous{
+    float: left;
+}
+.paper .next{
+    float: right;
+}
+/*左右翻页按钮*/
+
+/*底部内容*/
+footer{
+    padding: 50px 0 65px;
+    text-align: center;
+}
+
+footer ul{
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    letter-spacing: 1px;
+}
+footer li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+footer li .iconfont{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+footer li:first-child{
+    position: relative;
+    top: 5px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+}
+/*底部内容*/

@@ -1,0 +1,128 @@
+
+html, body, ul, li, a, img, input, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    border: none;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 120px;
+    color: #fff;
+}
+
+.container h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*表单样式*/
+form {
+    width: 305px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+input {
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border-radius: 6px;
+    background: rgba(45, 45, 45, .15);
+    -webkit-appearance: textfield;
+    border: 1px solid rgba(255, 255, 255, .15);
+    -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+input:-moz-placeholder {
+    color: #fff;
+}
+
+input:-ms-input-placeholder {
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+
+#btn {
+    width: 300px;
+    height: 44px;
+    background: #ef4300;
+    margin-top: 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#btn:hover {
+    -moz-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+
+#btn:active {
+    -moz-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255, 255, 255, .15) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .1) inset,
+    0 1px 4px 0 rgba(0, 0, 0, .1);
+
+    border: 0px solid #ef4300;
+}
+/*表单样式*/
+/*connect*/
+.connect {
+
+    width: 305px;
+    margin: 35px auto 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.link a {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.link a:first-child {
+    margin-top: -10px;
+}
+
+.link a:hover {
+    color: #333333;
+}

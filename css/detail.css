@@ -1,0 +1,159 @@
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/*头部固定导航*/
+.navbar-default {
+    font-weight: 800;
+    font-size: 14px;
+    color: #777;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+@media (min-width: 768px) {
+    .navbar-custom.navbar-default{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navbar {
+        border-radius: 4px;
+        background: transparent;
+    }
+
+    .navbar .navbar-brand {
+        color: white;
+        padding: 20px;
+    }
+
+    #bs-example-navbar-collapse-1 .navbar-nav > li > a {
+        color: white;
+        padding: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+.navbar-toggle .icon-bar {
+    width: 10px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 2px;
+}
+
+/*头部固定导航*/
+/*头部固定图片*/
+header {
+    background: url("../images/post-bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.intro-header .site-heading {
+    /*text-align: center;*/
+    color: white;
+    padding: 100px 0 50px;
+    margin-top: 0;
+}
+
+.intro-header .site-heading h2 {
+    font-size: 55px;
+    margin-top: 0;
+}
+
+.intro-header .site-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+}
+.intro-header .site-heading p {
+    /*color: #777;*/
+    font-style: italic;
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+    .intro-header .container .site-heading {
+        padding: 150px 0;
+    }
+
+    .intro-header .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+/*头部固定图片*/
+/*评论内容*/
+.container .row .media-left img{
+    width: 64px;
+    height: 64px;
+}
+
+.container .row .media-body p{
+    margin: 0;
+}
+
+.container .row .media-body .meta{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.container .row .btn-block{
+    padding: 15px 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.container .row .btn-block:hover{
+    color: white;
+    text-shadow: none;
+    background: #0085A1;
+}
+/*评论内容*/
+/*底部内容*/
+footer{
+    padding: 50px 0 65px;
+    text-align: center;
+}
+
+footer ul{
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    letter-spacing: 1px;
+}
+footer li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+footer li .iconfont{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+footer li:first-child{
+    position: relative;
+    top: 5px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+}
+/*底部内容*/

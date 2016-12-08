@@ -1,0 +1,125 @@
+/*公用样式修改*/
+body{
+    font-size: 14px;
+}
+h3 {
+    font-weight: normal;
+}
+
+input, button, select, textarea {
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*帖子搜索页面头部设置*/
+.panel-body .btn {
+    background: #fff;
+    color: #333;
+    border-color: #ccc;
+}
+
+.panel-body .btn:focus {
+    border-color: #9d9d9d;
+    background-color: #ddd;
+}
+
+.panel-body .btn:hover {
+    border-color: #9d9d9d;
+    background-color: #ddd;
+}
+
+.panel-body .btn:active {
+    border-color: #9d9d9d;
+    background-color: #ddd;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus {
+    border-color: #9d9d9d;
+    background-color: #ddd;
+}
+
+.page_title {
+    height: 30px;
+    box-shadow: 0 1px 4px rgba(204, 204, 204, 0.6);
+    border: 1px solid #d4d4d4;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #d4d4d4;
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+/*帖子搜索页面头部设置*/
+/*搜索帖子*/
+.input-group #basic-addon2 {
+    background: #fff;
+    cursor: pointer;
+}
+
+/*搜索帖子*/
+/*帖子内容列表*/
+.container-fluid.detail {
+    font-size: 14px;
+}
+
+.container-fluid.detail .row:first-child {
+    font-weight: 700;
+
+}
+
+.container-fluid.detail .row:first-child > div {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 8px;
+}
+
+.container-fluid.detail .row {
+    border-left: 1px solid #ccc;
+}
+
+.container-fluid.detail .row > div {
+    border: 1px solid #ccc;
+    border-left: none;
+    height: 51px;
+    padding: 8px;
+}
+
+.container-fluid.detail .row .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.container-fluid.detail .row .btn-primary:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.container-fluid.detail .row .btn-primary:active{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.container-fluid.detail .row .btn-danger{
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.container-fluid.detail .row .btn-danger:hover{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.container-fluid.detail .row .btn-danger:active{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+/*帖子内容列表*/
